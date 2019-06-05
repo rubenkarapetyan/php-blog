@@ -1,3 +1,7 @@
+<?php
+$is_auth = (bool) rand(0, 1);
+$auth = $is_auth;
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -57,9 +61,20 @@
                 </ul>
 
                 <ul class="nav navbar-nav text-uppercase pull-right">
+                    <?php
+                    if($auth==true){
+                        ?>
+                        <li><a href="contact.html">My profile</a></li>
+                    <?php
+                    }else{
+                        ?>
                     <li><a href="#">Register</a></li>
                     <li><a href="about-me.html">Login</a></li>
-                    <li><a href="contact.html">My profile</a></li>
+                    <?php
+                    }
+                    ?>
+
+
                 </ul>
 
             </div>
