@@ -179,7 +179,7 @@ $data = [
                     <div class="post-thumb">
                         <a href="<?=$d['link']?>"><img src="<?=$d['img'] ?>" alt=""></a>
 
-                        <a href="blog.html" class="post-thumb-overlay text-center">
+                        <a href="<?=$d['link']?>" class="post-thumb-overlay text-center">
                             <div class="text-uppercase text-center">View Post</div>
                         </a>
                     </div>
@@ -187,7 +187,7 @@ $data = [
                         <header class="entry-header text-center text-uppercase">
                             <h6><a href="#"> <?= $d['category']?></a></h6>
 
-                            <h1 class="entry-title"><a href="blog.html"><?= $d['title']?></a></h1>
+                            <h1 class="entry-title"><a href="<?=$d['link']?>"><?= $d['title']?></a></h1>
 
 
                         </header>
@@ -196,7 +196,7 @@ $data = [
                             </p>
 
                             <div class="btn-continue-reading text-center text-uppercase">
-                                <a href="blog.html" class="more-link">Continue Reading</a>
+                                <a href="<?=$d['link']?>" class="more-link">Continue Reading</a>
                             </div>
                         </div>
                         <div class="social-share">
