@@ -177,7 +177,7 @@ $data = [
                 <article class="post">
 
                     <div class="post-thumb">
-                        <a href="blog.html"><img src="<?=$d['img'] ?>" alt=""></a>
+                        <a href="<?=$d['link']?>"><img src="<?=$d['img'] ?>" alt=""></a>
 
                         <a href="blog.html" class="post-thumb-overlay text-center">
                             <div class="text-uppercase text-center">View Post</div>
