@@ -6,9 +6,10 @@ if ($page == ""){
     //main content start
     require "templates/index.php";
 
-    require "templates/aside.php";
 
     //end main content
 }
+require "templates/aside.php";
+
 //footer start
 require "templates/footer.php";
