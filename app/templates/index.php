@@ -122,9 +122,5 @@ $data = [
                     <li><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
                 </ul>
             </div>
-            <?php
-            require "aside.php";
-            ?>
-        </div>
-    </div>
-</div>
+
+
