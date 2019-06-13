@@ -70,7 +70,7 @@ $title_name = "Blog";
                     }else{
                         ?>
                         <li><a href="#">Register</a></li>
-                        <li><a href="about-me.html">Login</a></li>
+                        <li><a href="templates/login.php">Login</a></li>
                         <?php
                     }
                     ?>
