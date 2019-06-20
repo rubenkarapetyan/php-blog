@@ -10,14 +10,14 @@
     <title>Blog</title>
 
     <!-- common css -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.css">
-    <link rel="stylesheet" href="assets/css/owl.theme.css">
-    <link rel="stylesheet" href="assets/css/owl.transitions.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="../../Blog/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../Blog/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../Blog/assets/css/animate.min.css">
+    <link rel="stylesheet" href="../../Blog/assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="../../Blog/assets/css/owl.theme.css">
+    <link rel="stylesheet" href="../../Blog/assets/css/owl.transitions.css">
+    <link rel="stylesheet" href="../../Blog/assets/css/style.css">
+    <link rel="stylesheet" href="../../Blog/assets/css/responsive.css">
 
     <!-- HTML5 shim and Respond.js IE9 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -26,7 +26,7 @@
     <![endif]-->
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="icon" type="image/png" href="../../Blog/assets/images/favicon.png">
 
 </head>
 
@@ -44,7 +44,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt=""></a>
+                <a class="navbar-brand" href="../../Blog/index.html"><img src="../../Blog/assets/images/logo.png" alt=""></a>
             </div>
 
 
@@ -89,7 +89,7 @@
                     
                     <h3 class="text-uppercase">My profile</h3>
                     <br>
-                    <img src="assets/images/abc.jpg" alt="" class="profile-image">
+                    <img src="../../Blog/assets/images/abc.jpg" alt="" class="profile-image">
                     <form class="form-horizontal contact-form" role="form" method="post" action="">
                         <div class="form-group">
                             <div class="col-md-12">
@@ -128,7 +128,7 @@
                         <div class="popular-post">
 
 
-                            <a href="#" class="popular-img"><img src="assets/images/p1.jpg" alt="">
+                            <a href="#" class="popular-img"><img src="../../Blog/assets/images/p1.jpg" alt="">
 
                                 <div class="p-overlay"></div>
                             </a>
@@ -141,7 +141,7 @@
                         </div>
                         <div class="popular-post">
 
-                            <a href="#" class="popular-img"><img src="assets/images/p1.jpg" alt="">
+                            <a href="#" class="popular-img"><img src="../../Blog/assets/images/p1.jpg" alt="">
 
                                 <div class="p-overlay"></div>
                             </a>
@@ -154,7 +154,7 @@
                         <div class="popular-post">
 
 
-                            <a href="#" class="popular-img"><img src="assets/images/p1.jpg" alt="">
+                            <a href="#" class="popular-img"><img src="../../Blog/assets/images/p1.jpg" alt="">
 
                                 <div class="p-overlay"></div>
                             </a>
@@ -171,7 +171,7 @@
                         <div id="widget-feature" class="owl-carousel">
                             <div class="item">
                                 <div class="feature-content">
-                                    <img src="assets/images/p1.jpg" alt="">
+                                    <img src="../../Blog/assets/images/p1.jpg" alt="">
 
                                     <a href="#" class="overlay-text text-center">
                                         <h5 class="text-uppercase">Home is peaceful</h5>
@@ -182,7 +182,7 @@
                             </div>
                             <div class="item">
                                 <div class="feature-content">
-                                    <img src="assets/images/p2.jpg" alt="">
+                                    <img src="../../Blog/assets/images/p2.jpg" alt="">
 
                                     <a href="#" class="overlay-text text-center">
                                         <h5 class="text-uppercase">Home is peaceful</h5>
@@ -193,7 +193,7 @@
                             </div>
                             <div class="item">
                                 <div class="feature-content">
-                                    <img src="assets/images/p3.jpg" alt="">
+                                    <img src="../../Blog/assets/images/p3.jpg" alt="">
 
                                     <a href="#" class="overlay-text text-center">
                                         <h5 class="text-uppercase">Home is peaceful</h5>
@@ -212,7 +212,7 @@
 
                             <div class="media">
                                 <div class="media-left">
-                                    <a href="#" class="popular-img"><img src="assets/images/r-p.jpg" alt="">
+                                    <a href="#" class="popular-img"><img src="../../Blog/assets/images/r-p.jpg" alt="">
 
                                         <div class="p-overlay"></div>
                                     </a>
@@ -228,7 +228,7 @@
 
                             <div class="media">
                                 <div class="media-left">
-                                    <a href="#" class="popular-img"><img src="assets/images/r-p.jpg" alt="">
+                                    <a href="#" class="popular-img"><img src="../../Blog/assets/images/r-p.jpg" alt="">
 
                                         <div class="p-overlay"></div>
                                     </a>
@@ -244,7 +244,7 @@
 
                             <div class="media">
                                 <div class="media-left">
-                                    <a href="#" class="popular-img"><img src="assets/images/r-p.jpg" alt="">
+                                    <a href="#" class="popular-img"><img src="../../Blog/assets/images/r-p.jpg" alt="">
 
                                         <div class="p-overlay"></div>
                                     </a>
@@ -259,7 +259,7 @@
 
                             <div class="media">
                                 <div class="media-left">
-                                    <a href="#" class="popular-img"><img src="assets/images/r-p.jpg" alt="">
+                                    <a href="#" class="popular-img"><img src="../../Blog/assets/images/r-p.jpg" alt="">
 
                                         <div class="p-overlay"></div>
                                     </a>
@@ -315,28 +315,28 @@
         <div id="footer-instagram" class="owl-carousel">
 
             <div class="item">
-                <a href="#"><img src="assets/images/ins-1.jpg" alt=""></a>
+                <a href="#"><img src="../../Blog/assets/images/ins-1.jpg" alt=""></a>
             </div>
             <div class="item">
-                <a href="#"><img src="assets/images/ins-2.jpg" alt=""></a>
+                <a href="#"><img src="../../Blog/assets/images/ins-2.jpg" alt=""></a>
             </div>
             <div class="item">
-                <a href="#"><img src="assets/images/ins-3.jpg" alt=""></a>
+                <a href="#"><img src="../../Blog/assets/images/ins-3.jpg" alt=""></a>
             </div>
             <div class="item">
-                <a href="#"><img src="assets/images/ins-4.jpg" alt=""></a>
+                <a href="#"><img src="../../Blog/assets/images/ins-4.jpg" alt=""></a>
             </div>
             <div class="item">
-                <a href="#"><img src="assets/images/ins-5.jpg" alt=""></a>
+                <a href="#"><img src="../../Blog/assets/images/ins-5.jpg" alt=""></a>
             </div>
             <div class="item">
-                <a href="#"><img src="assets/images/ins-6.jpg" alt=""></a>
+                <a href="#"><img src="../../Blog/assets/images/ins-6.jpg" alt=""></a>
             </div>
             <div class="item">
-                <a href="#"><img src="assets/images/ins-7.jpg" alt=""></a>
+                <a href="#"><img src="../../Blog/assets/images/ins-7.jpg" alt=""></a>
             </div>
             <div class="item">
-                <a href="#"><img src="assets/images/ins-8.jpg" alt=""></a>
+                <a href="#"><img src="../../Blog/assets/images/ins-8.jpg" alt=""></a>
             </div>
 
         </div>
@@ -348,7 +348,7 @@
         <div class="row">
             <div class="col-md-4">
                 <aside class="footer-widget">
-                    <div class="about-img"><img src="assets/images/footer-logo.png" alt="Kotha"></div>
+                    <div class="about-img"><img src="../../Blog/assets/images/footer-logo.png" alt="Kotha"></div>
                     <div class="about-content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                         diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
                         voluptua. At vero eos et accusam et justo duo dlores et ea rebum magna text ar koto din.
@@ -386,7 +386,7 @@
                                             magna aliquyam eratma</p>
                                     </div>
                                     <div class="author-id">
-                                        <img src="assets/images/author.png" alt="">
+                                        <img src="../../Blog/assets/images/author.png" alt="">
 
                                         <div class="author-text">
                                             <h4>Sophia</h4>
@@ -405,7 +405,7 @@
                                             magna aliquyam eratma</p>
                                     </div>
                                     <div class="author-id">
-                                        <img src="assets/images/author.png" alt="">
+                                        <img src="../../Blog/assets/images/author.png" alt="">
 
                                         <div class="author-text">
                                             <h4>Sophia</h4>
@@ -424,7 +424,7 @@
                                             magna aliquyam eratma</p>
                                     </div>
                                     <div class="author-id">
-                                        <img src="assets/images/author.png" alt="">
+                                        <img src="../../Blog/assets/images/author.png" alt="">
 
                                         <div class="author-text">
                                             <h4>Sophia</h4>
@@ -446,7 +446,7 @@
 
                     <div class="custom-post">
                         <div>
-                            <a href="#"><img src="assets/images/footer-img.png" alt=""></a>
+                            <a href="#"><img src="../../Blog/assets/images/footer-img.png" alt=""></a>
                         </div>
                         <div>
                             <a href="#" class="text-uppercase">Home is peaceful Place</a>
@@ -471,11 +471,11 @@
 </footer>
 <!-- js files -->
 <!-- js files -->
-<script type="text/javascript" src="assets/js/jquery-1.11.3.min.js"></script>
-<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
-<script type="text/javascript" src="assets/js/jquery.stickit.min.js"></script>
-<script type="text/javascript" src="assets/js/map.js"></script>
+<script type="text/javascript" src="../../Blog/assets/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="../../Blog/assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../Blog/assets/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="../../Blog/assets/js/jquery.stickit.min.js"></script>
+<script type="text/javascript" src="../../Blog/assets/js/map.js"></script>
 <script type="text/javascript">
     /* ==== google map ====*/
     function initialize() {
@@ -503,7 +503,7 @@
     google.maps.event.addDomListener(window, 'load', initialize);
 
 </script>
-<script type="text/javascript" src="assets/js/menu.js"></script>
-<script type="text/javascript" src="assets/js/scripts.js"></script>
+<script type="text/javascript" src="../../Blog/assets/js/menu.js"></script>
+<script type="text/javascript" src="../../Blog/assets/js/scripts.js"></script>
 </body>
 </html>
