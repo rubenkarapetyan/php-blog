@@ -1,14 +1,4 @@
 ﻿<?php
-$errors = [];
-if (!empty($_POST)){
-
-    if (empty($_POST["email"])){
-        $errors["email"] = "please fill out your email";
-    }
-    if (empty($_POST["password"])){
-        $errors["password"] = "please fill out your password";
-    }
-}
 
 ?>
 <!--main content start-->
@@ -25,7 +15,8 @@ if (!empty($_POST)){
                         <div class="form-group">
                             <div class="col-md-12">
                                 <input type="text" class="form-control" id="email" name="email"
-                                       placeholder="Email">
+                                       placeholder="Email"
+                                value="<?= (!empty($_POST["email"])) ? $_POST["email"] : "" ?>">
                                 <?php
                                 if(!empty($errors["email"])){
                                     ?>
@@ -37,7 +28,7 @@ if (!empty($_POST)){
                         </div>
                         <div class="form-group">
                             <div class="col-md-12">
-                                <input type="text" class="form-control" id="password" name="password"
+                                <input type="password" class="form-control" id="password" name="password"
                                        placeholder="password">
                                 <?php
                                 if(!empty($errors["password"])){

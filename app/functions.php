@@ -13,4 +13,5 @@ function include_template($string){
         require "templates/$string.php";
     }
 
+
 }
