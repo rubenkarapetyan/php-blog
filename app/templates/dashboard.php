@@ -7,16 +7,16 @@
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../adminLTE/assets/bootstrap/css/bootstrap.min.css">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="assets/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../adminLTE/assets/font-awesome/4.5.0/css/font-awesome.min.css">
   <!-- Ionicons -->
-  <link rel="stylesheet" href="assets/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="../../adminLTE/assets/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="assets/dist/css/AdminLTE.min.css">
+  <link rel="stylesheet" href="../../adminLTE/assets/dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
        folder instead of downloading all of them to reduce the load. -->
-  <link rel="stylesheet" href="assets/dist/css/skins/_all-skins.min.css">
+  <link rel="stylesheet" href="../../adminLTE/assets/dist/css/skins/_all-skins.min.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -63,7 +63,7 @@
                   <li><!-- start message -->
                     <a href="#">
                       <div class="pull-left">
-                        <img src="assets/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                        <img src="../../adminLTE/assets/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
                       </div>
                       <h4>
                         Support Team
@@ -134,13 +134,13 @@
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="assets/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
+              <img src="../../adminLTE/assets/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
               <span class="hidden-xs">Alexander Pierce</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
               <li class="user-header">
-                <img src="assets/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                <img src="../../adminLTE/assets/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
 
                 <p>
                   Alexander Pierce - Web Developer
@@ -191,7 +191,7 @@
       <!-- Sidebar user panel -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="assets/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+          <img src="../../adminLTE/assets/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
           <p>Alexander Pierce</p>
@@ -478,17 +478,17 @@
 <!-- ./wrapper -->
 
 <!-- jQuery 2.2.3 -->
-<script src="assets/plugins/jQuery/jquery-2.2.3.min.js"></script>
+<script src="../../adminLTE/assets/plugins/jQuery/jquery-2.2.3.min.js"></script>
 <!-- Bootstrap 3.3.6 -->
-<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="../../adminLTE/assets/bootstrap/js/bootstrap.min.js"></script>
 <!-- SlimScroll -->
-<script src="assets/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+<script src="../../adminLTE/assets/plugins/slimScroll/jquery.slimscroll.min.js"></script>
 <!-- FastClick -->
-<script src="assets/plugins/fastclick/fastclick.js"></script>
+<script src="../../adminLTE/assets/plugins/fastclick/fastclick.js"></script>
 <!-- AdminLTE App -->
-<script src="assets/dist/js/app.min.js"></script>
+<script src="../../adminLTE/assets/dist/js/app.min.js"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="assets/dist/js/demo.js"></script>
+<script src="../../adminLTE/assets/dist/js/demo.js"></script>
 </body>
 
 <!-- Mirrored from almsaeedstudio.com/themes/AdminLTE/pages/examples/blank.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 18 Dec 2016 15:13:35 GMT -->
