@@ -1,11 +1,12 @@
  CREATE DATABASE blog;
+ use blog;
  CREATE TABLE blog_posts(
  id varchar(100),
  title varchar(100),
  text varchar(1000),
  author varchar (100),
- publishDate CURRENT_DATE,
- isActive bit
+ publishDate DATE,
+ isActive int(1)
  );
  CREATE TABLE categories(
  id varchar (20),

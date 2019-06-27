@@ -1,5 +1,6 @@
 <?php
 $errors = [];
+$success = [];
 if (!empty($_POST)) {
     if (empty($_POST["name"])) {
         $errors["name"] = "please fill out your name";
@@ -17,5 +18,8 @@ if (!empty($_POST)) {
         $errors["password"] = "Password will contain letters and numbers, and more than 8 characters";
     } else if (!preg_match('/[A-Za-z].*[0-9]|[0-9].*[A-Za-z]/', $_POST["password"])) {
         $errors["password"] = "Password will contain letters and numbers, and more than 8 characters";
+    }else if(empty($errors)){
+        insert_data($_POST['name'], $_POST['email'], "", password_hash($_POST['password'], PASSWORD_DEFAULT),1,'users');
+        $success['success'] = "Thank you for registrating!";
     }
 }

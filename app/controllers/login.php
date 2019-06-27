@@ -6,14 +6,10 @@ if(!empty($_SESSION)){
     header("Location: ?page=profile");
 }
 if (!empty($_POST)) {
-    if (password_verify($_POST['password'], ADMIN_PASS )) {
-        if ($_POST['email'] == ADMIN_LOGIN ){
+    if (password_verify($_POST['password'], ADMIN_PASS ) && $_POST['email'] == ADMIN_LOGIN ) {
             $_SESSION['user'] = $_POST['email'];
             $_SESSION['loggedIn'] = true;
             header("Location: ?page=dashboard");
-        }
-
-
     }else if (empty($_POST["email"])) {
         $errors["email"] = "please fill out your email";
     } else if (!filter_var($_POST["email"], FILTER_VALIDATE_EMAIL)) {

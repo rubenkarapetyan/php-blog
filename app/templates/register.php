@@ -55,8 +55,13 @@
                                     ?>
                                     <p class="alert alert-danger" role="alert"><?= $errors["password"] ?> </p>
                                     <?php
+                                }else if(!empty($success["success"])){
+                                    ?>
+                                <p class="alert alert-success" role="alert"><?= $success["success"] ?> </p>
+                               <?php
                                 }
-                                ?>
+                                    ?>
+
                             </div>
                         </div>
                         <button type="submit" name="submit" class="btn send-btn">Register</button>

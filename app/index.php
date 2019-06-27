@@ -1,7 +1,7 @@
 <?php
 session_start();
 $data = [];
-
+require "db.php";
 require "functions.php";
 require "config.php";
 include_controller($page);

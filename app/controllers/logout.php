@@ -3,4 +3,4 @@ function logout(){
     $_SESSION = [];
 }
 logout();
-header("Location: ?page=profile");
+header("Location: ?page=login");
