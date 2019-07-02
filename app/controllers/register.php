@@ -1,5 +1,6 @@
 <?php
 $errors = [];
+$success = [];
 if (!empty($_POST)) {
     if (empty($_POST["name"])) {
         $errors["name"] = "please fill out your name";
@@ -8,14 +9,20 @@ if (!empty($_POST)) {
     }
     if (empty($_POST["email"])) {
         $errors["email"] = "please fill out your email";
-    }else if(!filter_var($_POST["email"], FILTER_VALIDATE_EMAIL)){
+    } else if (!filter_var($_POST["email"], FILTER_VALIDATE_EMAIL)) {
         $errors["email"] = "Invalid email format";
     }
     if (empty($_POST["password"])) {
         $errors["password"] = "please fill out your password";
-    } else if (strlen($_POST["password"]) <= 8) {
+    } else if (strlen($_POST["password"]) < 8) {
         $errors["password"] = "Password will contain letters and numbers, and more than 8 characters";
     } else if (!preg_match('/[A-Za-z].*[0-9]|[0-9].*[A-Za-z]/', $_POST["password"])) {
         $errors["password"] = "Password will contain letters and numbers, and more than 8 characters";
     }
+
+    if (empty($errors)) {
+        insert_data($_POST['name'], $_POST['email'], "", password_hash($_POST['password'], PASSWORD_DEFAULT), 1, 'users');
+        $success['success'] = "Thank you for registrating!";
+    }
 }
+
