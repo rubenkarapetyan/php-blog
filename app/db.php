@@ -12,9 +12,8 @@ function insert_data($name,$email,$avatar,$pass,$isActive,$dataName){
 VALUES ('$name','$email','$avatar','$pass','$isActive')";
     if ($connect->query($sql) === TRUE) {
         $last_id = $connect->insert_id;
-        echo "New record created successfully. Last inserted ID is: " . $last_id;
+
     } else {
-        echo "Error: " . $sql . "<br>" . $connect->error;
     }
 
 }

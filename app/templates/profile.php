@@ -27,7 +27,7 @@
                         </div>
                         <div class="form-group">
                             <div class="col-md-12">
-								<input type="file" class="form-control" id="image" name="image">	
+                                <input type="file" class="form-control" id="image" name="image">
                             </div>
                         </div>
                         <button type="submit" name="submit" class="btn send-btn">Update</button>
