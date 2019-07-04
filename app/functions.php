@@ -2,15 +2,19 @@
 $page = "";
 if (!empty($_GET['page'])) {
     $page = $_GET['page'];
+} else {
+    $page = 'index';
 }
-function include_controller($string){
+function include_controller($string)
+{
 
-     if ($string !== "") {
+    if ($string !== "") {
         require "controllers/$string.php";
 
 
     }
 }
+
 function include_template($string)
 {
     if ($string == "") {
